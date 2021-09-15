@@ -1,0 +1,229 @@
+.signin-panel, .signup-panel {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f9f9fd;
+
+  overflow: hidden; 
+margin: 0;}
+  .signin-panel .svg-bg, .signup-panel .svg-bg {
+    height: 100%;
+    display: none; }
+  
+
+.signin-sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border-right: 1px solid rgba(224, 225, 235, 0.85);
+  box-shadow: 0 4px 12px 0 rgba(131, 146, 165, 0.15), 2px 2px 5px 0 rgba(60, 70, 83, 0.04);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; }
+  @media (min-width: 576px) {
+    .signin-sidebar {
+      width: 400px; } }
+
+.signin-sidebar-body, .signup-sidebar-body {
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 992px) {
+    .signin-sidebar-body, .signup-sidebar-body {
+      padding: 40px; } }
+
+.signin-title, .signup-title {
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: -.5px;
+  color: #06072d;
+  margin-bottom: 5px; }
+
+.signin-subtitle, .signup-subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(55, 56, 87, 0.6); }
+
+.signin-form, .signup-form {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .signin-form .form-group, .signup-form .form-group {
+    margin-bottom: 20px; }
+  .signin-form label, .signup-form label {
+    color: #575d78;
+    margin-bottom: 2px; }
+  .signin-form .form-control, .signup-form .form-control {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 0 5px;
+    border-width: 0 0 2px 0;
+    color: #06072d; }
+    .signin-form .form-control::placeholder, .signup-form .form-control::placeholder {
+      font-weight: 400;
+      color: #919fac; }
+
+.signup-sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; }
+  @media (min-width: 768px) {
+    .signup-sidebar {
+      width: 70%;
+      border-right: 1px solid rgba(224, 225, 235, 0.85);
+      box-shadow: 0 4px 12px 0 rgba(131, 146, 165, 0.15), 2px 2px 5px 0 rgba(60, 70, 83, 0.04); } }
+  @media (min-width: 992px) {
+    .signup-sidebar {
+      width: 52%; } }
+  @media (min-width: 1200px) {
+    .signup-sidebar {
+      width: 45%; } }
+
+      .btn-uppercase {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: 1.692; }
+  .btn-uppercase.btn-sm, .btn-group-sm > .btn-uppercase.btn, .sp-container .btn-group-sm > button.btn-uppercase, .ui-datepicker-buttonpane button.btn-uppercase {
+    font-size: 12px;
+    line-height: 2; }
+  .btn-uppercase.btn-xs {
+    font-size: 11px;
+    line-height: 1.8; }
+
+    .btn-white {
+  background-color: #fff;
+  border-color: #d6d8e5;
+  color: #575d78; }
+  .btn-white:hover, .btn-white:focus {
+    background-color: #f1f1fa;
+    border-color: #c7c9db;
+    color: #373857; }
+  .btn-white:active, .btn-white.active {
+    background-color: #f9f9fd; }
+
+    .btn-brand-01 {
+  background-color: #00accd;
+  border-color: transparent;
+  color: #fff; }
+  .btn-brand-01:hover, .btn-brand-01:focus {
+    background-color: #00accd;
+    border-color: transparent;
+    color: #fff; }
+    .mg-l-10 {
+    margin-left: 10px;
+}
+svg-to-inline {
+    display: contents;
+}
+.logo-large {
+  height: 20%;
+  height: 100px;
+  align-self: center;
+  margin-left: 30px;
+}
+
+.logo-large1 {
+  height: 20%;
+  height: 60px;
+  align-self: center;
+  margin-left: 30px;
+}
+.signin-panel .svg-bg, .signup-panel .svg-bg {
+    height: 80%;
+    display: none; }
+    @media (min-width: 576px) {
+      .signin-panel .svg-bg, .signup-panel .svg-bg {
+        display: block;
+        margin-right: 10%;
+        transform: translateX(calc(27% + 200px)); } }
+   
+  
+
+        .camptabs > ul {
+          text-align: center;
+          font-weight: 500;
+          margin: 0px 0 0;
+          padding-top: 0px;
+          padding-bottom: 0px;
+          padding-left: 5px;
+          position: relative;
+         /* border-bottom: 1px solid rgba(0, 0, 0, 0.2);*/
+          z-index: 1;
+          }
+          .camptabs > ul > li {
+          display: inline-block;
+          background: #fafafa;
+          padding: 0.6em 0;
+          position: relative;
+          width: 300px;
+          margin: 0 0 0 -4px;
+         float: left;
+          }
+          .camptabs > ul > li:before, .camptabs > ul > li:after {
+          opacity: 0;
+          transition: 0.3s ease;
+          }
+          .camptabs > ul > li.ui-tabs-active:before, .camptabs > ul > li.ui-tabs-active:after, .camptabs > ul > li.ui-state-hover:before, .camptabs > ul > li.ui-state-hover:after, .camptabs > ul > li.ui-state-focus:before, .camptabs > ul > li.ui-state-focus:after {
+          opacity: 1;
+          }
+          .camptabs > ul > li:before, .camptabs > ul > li.ui-state-active.ui-state-hover:before, .camptabs > ul > li.ui-state-active.ui-state-focus:before {
+          content: "";
+          position: absolute;
+          z-index: -1;
+          box-shadow: 0 2px 3px rgba(22, 195, 255, 0.5);
+          top: 50%;
+          bottom: 0px;
+          left: 5px;
+          right: 5px;
+          border-radius: 100px / 10px;
+          }
+          .camptabs > ul > li:after, .camptabs > ul > li.ui-state-active.ui-state-hover:after, .camptabs > ul > li.ui-state-active.ui-state-focus:after {
+          content: "";
+          background: #fafafa;
+          position: absolute;
+          width: 12px;
+          height: 12px;
+          left: 50%;
+          bottom: -6px;
+          margin-left: -6px;
+          transform: rotate(45deg);
+          box-shadow: inset 3px 3px 3px rgba(22, 195, 255, 0.5), inset 1px 1px 1px rgba(0, 0, 0, 0.3);
+          }
+          .camptabs > ul > li.ui-state-hover:before, .camptabs > ul > li.ui-state-focus:before {
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+          }
+          .camptabs > ul > li.ui-state-hover:after, .camptabs > ul > li.ui-state-focus:after {
+          box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.2), inset 1px 1px 1px rgba(0, 0, 0, 0.3);
+          }
+          .camptabs > ul > li.ui-state-focus a {
+          text-decoration: underline;
+          }
+          .camptabs > ul > li:focus {
+          outline: none;
+          }
+          .camptabs > ul > li a {
+          color: #444;
+          text-decoration: none!important;
+          }
+          .camptabs > ul > li a:focus {
+          outline: none;
+          }
+          .camptabs > ul > li a span {
+          position: relative;
+          top: -0.5em;
+          }
+          .icon-tab{
+          font-size: 20px;
+          top: 2px;
+          position: relative;
+          color: #009fe2
+          }
+          a:hover {
+            cursor:pointer;
+           }
